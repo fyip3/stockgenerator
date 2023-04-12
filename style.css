@@ -1,7 +1,15 @@
 body {
-  background-color: #333;
+  background-color: #2c3e50;
   color: #fff;
   font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .title {
@@ -45,11 +53,12 @@ body {
 }
 
 .stock-display {
-  margin: 2rem;
+  margin-top: 2rem;
   font-size: 2rem;
 }
 
 button {
+  margin-top: 2rem;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   background-color: #f1c40f;
