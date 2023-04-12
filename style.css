@@ -55,11 +55,13 @@ body {
 
 .stock-display {
   margin-top: 2rem;
+  margin: auto;
   font-size: 2rem;
 }
 
 button {
   margin-top: 2rem;
+  margin: auto;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   background-color: #f1c40f;
