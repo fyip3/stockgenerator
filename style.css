@@ -4,13 +4,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
 .title {
   font-size: 6rem;
   text-align: center;
-  background: -webkit-linear-gradient(#ffbf00, #ff0000, #9400d3, #00bfff, #00ff00, #ffbf00);
+  background: -webkit-linear-gradient(#f1c40f, #e74c3c, #9b59b6, #3498db, #2ecc71, #f1c40f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 4px 4px 0 #000, -4px -4px 0 #000, -4px 4px 0 #000, 4px -4px 0 #000;
+  text-shadow: 3px 3px #000, -3px -3px #000, -3px 3px #000, 3px -3px #000;
   animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -45,11 +54,12 @@ body {
 }
 
 .stock-display {
-  margin: 2rem;
+  margin-top: 2rem;
   font-size: 2rem;
 }
 
 button {
+  margin-top: 2rem;
   padding: 1rem 2rem;
   font-size: 1.5rem;
   background-color: #f1c40f;
