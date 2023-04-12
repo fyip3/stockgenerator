@@ -18,7 +18,7 @@ body {
   text-align: center;
   background: -webkit-linear-gradient(#f1c40f, #e74c3c, #9b59b6, #3498db, #2ecc71, #f1c40f);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: black;
   text-shadow: 3px 3px #000, -3px -3px #000, -3px 3px #000, 3px -3px #000;
   animation-name: bounce;
   animation-duration: 2s;
